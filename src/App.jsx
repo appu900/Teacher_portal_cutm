@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import TeacherHomePage from "./pages/TeacherHomePage";
 import { Routes, Route } from "react-router-dom";
 import ProfileDetails from "./pages/ProfileDetails";
 
+const User = {
+  username: "",
+  email: "",
+};
+
 const App = () => {
+
   return (
     <div>
       <Routes>
